@@ -1,0 +1,52 @@
+@-webkit-keyframes animate-stripes {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 44px 0;
+    }
+}
+
+.ui-progress-bar {
+    position: relative;
+    height: 1.5rem;
+    padding-right: 2px;
+    background-color: #abb2bc;
+    border-radius: 35px;
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #b6bcc6), color-stop(1, #9da5b0));
+    background: -moz-linear-gradient(#9da5b0 0%, #b6bcc6 100%);
+    -webkit-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 1px 0px 0px #FFF;
+    -moz-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 1px 0px 0px #FFF;
+    box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 1px 0px 0px #FFF;
+}
+
+.ui-progress {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: 1.5rem;
+    -webkit-border-radius: 35px;
+    /* Webkit */
+    background-color: #007bff;
+}
+
+.ui-progress span.ui-label {
+    font-size: .75rem;
+    position: absolute;
+    left: 2em;
+    line-height: 33px;
+    display: flex;
+    text-shadow: black 0.1em 0.2em 0.15em;
+    white-space: nowrap;
+    text-align: left;
+    color: white;
+    align-items: center;
+    height: 100%;
+}
+
+.box-second {
+    margin: 5%;
+    width: 90%;
+}
